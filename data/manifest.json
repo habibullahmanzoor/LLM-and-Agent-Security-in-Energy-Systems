@@ -1,0 +1,28 @@
+{
+  "version": "1.1.0",
+  "prepared_on": "2026-10-20",
+  "status": "supporting materials; manuscript submission status not asserted",
+  "archived_retrieved_records": 472,
+  "archived_keyword_charted_records": 239,
+  "exploratory_census_records": 143,
+  "archived_stream_counts": {
+    "E_energy_llm_capability_or_deployment": 46,
+    "B_classical_background": 3,
+    "C_energy_llm_action_control": 7,
+    "D_llm_grid_cyber_detection": 17,
+    "R_review_or_perspective": 29,
+    "T_energy_llm_threat_or_risk": 8,
+    "X_off_topic": 5,
+    "G_general_llm_security": 21,
+    "V_energy_llm_safety_benchmark": 7
+  },
+  "selected_source_checked_studies": 23,
+  "reporting_assessments": 23,
+  "numerical_claims_audited": 17,
+  "related_review_scope_checks": 8,
+  "related_full_source_checks": 5,
+  "related_abstract_or_summary_checks": 3,
+  "proposed_operational_metric_definitions": 8,
+  "review_status": "AI-assisted source checks; no independent human validation or experimental replication claimed",
+  "repository_url": "https://github.com/habibullahmanzoor/LLM-and-Agent-Security-in-Energy-Systems"
+}

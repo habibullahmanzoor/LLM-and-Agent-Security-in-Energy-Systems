@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "Cite the survey for the synthesis and original studies for their findings."
+title: "LLM and Agent Security in Energy Systems: A Critical Survey - Supplementary Evidence Records"
+type: dataset
+version: "1.1.0"
+authors:
+  - family-names: "Manzoor"
+    given-names: "Habib Ullah"
+    affiliation: "University of the West of Scotland, UK"
+  - family-names: "Alhumaily"
+    given-names: "Basim"
+    affiliation: "Qassim University, Saudi Arabia"
+abstract: "Comparison records for 23 studies, eight related-review checks and a frozen exploratory 143-record census with classification sensitivity. AI-assisted annotations have not been independently confirmed by humans. No DOI has been assigned."
+keywords: [large language models, smart grids, energy systems, security, evaluation]
+url: "https://github.com/habibullahmanzoor/LLM-and-Agent-Security-in-Energy-Systems"
+license: MIT

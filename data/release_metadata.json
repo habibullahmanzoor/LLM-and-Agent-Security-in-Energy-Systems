@@ -1,0 +1,41 @@
+{
+  "title": "LLM and Agent Security in Energy Systems: A Critical Survey",
+  "version": "1.1.0",
+  "status": "supporting materials; manuscript submission status not asserted",
+  "prepared_on": "2026-10-20",
+  "authors": [
+    {
+      "family_names": "Manzoor",
+      "given_names": "Habib Ullah",
+      "affiliation": "University of the West of Scotland, UK"
+    },
+    {
+      "family_names": "Alhumaily",
+      "given_names": "Basim",
+      "affiliation": "Qassim University, Saudi Arabia"
+    }
+  ],
+  "paper_doi": null,
+  "artifact_doi": null,
+  "repository_url": "https://github.com/habibullahmanzoor/LLM-and-Agent-Security-in-Energy-Systems",
+  "license": "MIT",
+  "abstract": "Large language models (LLMs) and tool-using agents can pass untrusted information into energy-system decisions. However, security studies often measure different outcomes. This critical survey compares 23 selected attack, defense and benchmark studies by attacker access, permitted actions, outcome checks and measured consequences. Five findings follow. The actions a system can take determine the harm it can cause. Malicious instructions and corrupted numerical values need separate tests. Answer errors, detector accuracy and unsafe action release cannot be combined into one security ranking. Physical checks depend on the network model and state used by the checker. Protection must also preserve authorized work and data confidentiality. We organize the evidence by attack surface, mechanism, attacker control, authority, consequence and evidence type. This framework connects general LLM-security findings to energy workflows. A claim-to-evidence guide, eight metric definitions and a paired evaluation design help readers plan and interpret tests. A mapping of governance requirements to technical controls and a research agenda identify further evidence needed for deployment claims. An exploratory census of 143 records describes the collected literature and disputed classifications. The census does not estimate the size of the field. We do not combine incompatible success rates, report new experiments or claim a validated security standard.",
+  "keywords": [
+    "Large language models",
+    "LLM agents",
+    "Prompt injection",
+    "Cybersecurity",
+    "Energy systems",
+    "Security evaluation"
+  ],
+  "ai_assistance": {
+    "tools": [
+      "OpenAI Codex",
+      "Anthropic Claude through Claude Code"
+    ],
+    "exact_model_build": "not consistently recorded",
+    "independent_human_verification": "not completed"
+  },
+  "census_status": "frozen historical AI codes; exploratory; sensitivity cases in S5",
+  "author_contribution_statement": "omitted from paper at author request"
+}

@@ -1,0 +1,12 @@
+__pycache__/
+*.py[cod]
+.venv/
+*.aux
+*.bbl
+*.blg
+*.log
+*.out
+*.spl
+*.synctex.gz
+manuscript/manuscript.pdf
+tmp/

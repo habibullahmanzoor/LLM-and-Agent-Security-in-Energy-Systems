@@ -1,0 +1,3 @@
+# Programmatic figure regeneration
+matplotlib>=3.10,<4
+Pillow>=11,<13

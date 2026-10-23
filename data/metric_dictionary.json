@@ -1,0 +1,80 @@
+{
+  "version": "1.1.0",
+  "prepared_on": "2026-10-14",
+  "status": "author-proposed survey guidance; no experimental observations",
+  "scope_note": "Operational recommendations for future evaluations; not original-study metric normalization or a validated standard. Report raw counts, uncertainty, missing outcomes and aggregation. Zero denominators are undefined.",
+  "synthesis_basis": [
+    "debenedetti2024agentdojo",
+    "zhan2024injecagent",
+    "mylonas2026poweragentbenchssbenchmarkagenticai",
+    "rafy2026twingridshieldconsequenceawareruntimeauthorization",
+    "anderson2025dataretrievaldatabasemembership"
+  ],
+  "metrics": [
+    {
+      "id": "attacker_goal_success",
+      "metric": "Attacker-goal success",
+      "unit": "attack trial",
+      "numerator": "Trials satisfying the predeclared attacker goal",
+      "denominator": "All attempted attack trials",
+      "qualification": "Goal/judge, access, retries and utility; report aborted or unevaluable trials separately"
+    },
+    {
+      "id": "authorized_task_completion",
+      "metric": "Authorized-task completion",
+      "unit": "task attempt",
+      "numerator": "Attempted legitimate tasks completed within the stated authorization policy",
+      "denominator": "All attempted legitimate tasks",
+      "qualification": "Clean/attacked/defended conditions, quality criteria, cost and attacker success"
+    },
+    {
+      "id": "unsafe_release",
+      "metric": "Unsafe release",
+      "unit": "attack trial",
+      "numerator": "Attack trials with at least one released action violating the independent physical oracle",
+      "denominator": "All attempted attack trials",
+      "qualification": "Released does not mean executed; pair with completion, abort accounting and checker mismatch"
+    },
+    {
+      "id": "unsafe_execution",
+      "metric": "Unsafe execution",
+      "unit": "executed action",
+      "numerator": "Executed actions violating the independent physical oracle",
+      "denominator": "All executed actions",
+      "qualification": "Conditional on execution; blocking changes denominator; report volume and unsafe release per trial"
+    },
+    {
+      "id": "unsafe_proposal_interception",
+      "metric": "Unsafe-proposal interception",
+      "unit": "proposal",
+      "numerator": "Oracle-unsafe proposals blocked before release",
+      "denominator": "All oracle-unsafe proposals",
+      "qualification": "Independent oracle, proposal sampling and safe-proposal false blocks"
+    },
+    {
+      "id": "safe_proposal_false_block",
+      "metric": "Safe-proposal false block",
+      "unit": "proposal",
+      "numerator": "Oracle-safe and policy-authorized proposals blocked by the defense",
+      "denominator": "All proposals satisfying both physical safety and authorization policy",
+      "qualification": "Safe but unauthorized proposals must remain blocked; pair with completion and latency"
+    },
+    {
+      "id": "membership_leakage",
+      "metric": "Membership leakage",
+      "unit": "target record",
+      "numerator": "Member records classified as members at a threshold with declared false-positive rate",
+      "denominator": "All evaluated member records; separately report false positives over evaluated nonmember records",
+      "qualification": "Report threshold, sampling, query budget, retrieval versus training membership and utility; AUC alone is insufficient"
+    },
+    {
+      "id": "disclosure_exposure",
+      "metric": "Disclosure exposure",
+      "unit": "attack trial",
+      "numerator": "Disclosure trials exposing at least one predeclared protected item",
+      "denominator": "All attempted disclosure trials",
+      "qualification": "Report number/sensitivity of exposed items, extraction judge, rules and budget; membership is not extraction"
+    }
+  ],
+  "release_updated_on": "2026-10-20"
+}

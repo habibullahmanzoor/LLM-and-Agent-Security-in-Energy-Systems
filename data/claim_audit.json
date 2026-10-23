@@ -1,0 +1,330 @@
+{
+  "version": "1.1.0",
+  "checked_on": "2026-10-14",
+  "scope": "Second AI-assisted check of selected numerical comparative claims against pinned source pages; not replication or independent human verification.",
+  "claims": [
+    {
+      "claim_id": "li_dataset",
+      "study_id": "li",
+      "claim": "The refined renewable-incident dataset contains 423 labeled messages.",
+      "pdf_pages": [
+        4
+      ],
+      "numeric_anchors": [
+        "423"
+      ],
+      "interpretation": "Text classification sample size, not grid trials.",
+      "numeric_anchor_status": "matched in listed PDF pages; interpretation separately AI-assisted",
+      "reviewed_version": "2405.06237v3",
+      "source_url": "https://arxiv.org/abs/2405.06237v3",
+      "source_sha256": "6333aecc591b9b89b1fd573c0246eab7a2c7362442fcceea2c543a208fd71cec",
+      "checked_on": "2026-10-14",
+      "audit_status": "AI-assisted source/condition check; not independently replicated"
+    },
+    {
+      "claim_id": "li_clean",
+      "study_id": "li",
+      "claim": "GPT-4 clean classification accuracy is 93.8%.",
+      "pdf_pages": [
+        4
+      ],
+      "numeric_anchors": [
+        "93.8"
+      ],
+      "interpretation": "Table I clean accuracy; not attack success.",
+      "numeric_anchor_status": "matched in listed PDF pages; interpretation separately AI-assisted",
+      "reviewed_version": "2405.06237v3",
+      "source_url": "https://arxiv.org/abs/2405.06237v3",
+      "source_sha256": "6333aecc591b9b89b1fd573c0246eab7a2c7362442fcceea2c543a208fd71cec",
+      "checked_on": "2026-10-14",
+      "audit_status": "AI-assisted source/condition check; not independently replicated"
+    },
+    {
+      "claim_id": "li_reverse",
+      "study_id": "li",
+      "claim": "GPT-4 reversing-input condition accuracy is 43.4%.",
+      "pdf_pages": [
+        5
+      ],
+      "numeric_anchors": [
+        "43.4"
+      ],
+      "interpretation": "Table II InjectRev accuracy; same classifier task, no actuator endpoint.",
+      "numeric_anchor_status": "matched in listed PDF pages; interpretation separately AI-assisted",
+      "reviewed_version": "2405.06237v3",
+      "source_url": "https://arxiv.org/abs/2405.06237v3",
+      "source_sha256": "6333aecc591b9b89b1fd573c0246eab7a2c7362442fcceea2c543a208fd71cec",
+      "checked_on": "2026-10-14",
+      "audit_status": "AI-assisted source/condition check; not independently replicated"
+    },
+    {
+      "claim_id": "nerc_e1",
+      "study_id": "nerc",
+      "claim": "Experiment 1 reports 966 successes in 2916 tests, summarized as 33.1%.",
+      "pdf_pages": [
+        3,
+        5
+      ],
+      "numeric_anchors": [
+        "966",
+        "2916",
+        "33.1"
+      ],
+      "interpretation": "Source aggregation across tested models/methods; distinct from Experiment 2.",
+      "numeric_anchor_status": "matched in listed PDF pages; interpretation separately AI-assisted",
+      "reviewed_version": "2604.23341v3",
+      "source_url": "https://arxiv.org/abs/2604.23341v3",
+      "source_sha256": "4e09f4dd0b301736ae12e477c136329c6ab3e7ae5e58b6085fb546d2a6a9a467",
+      "checked_on": "2026-10-14",
+      "audit_status": "AI-assisted source/condition check; not independently replicated"
+    },
+    {
+      "claim_id": "nerc_deep",
+      "study_id": "nerc",
+      "claim": "DeepInception reaches 63.17% ASR under the reported aggregation.",
+      "pdf_pages": [
+        1,
+        5
+      ],
+      "numeric_anchors": [
+        "63.17"
+      ],
+      "interpretation": "Method aggregate, not a universal model/temperature-independent rate.",
+      "numeric_anchor_status": "matched in listed PDF pages; interpretation separately AI-assisted",
+      "reviewed_version": "2604.23341v3",
+      "source_url": "https://arxiv.org/abs/2604.23341v3",
+      "source_sha256": "4e09f4dd0b301736ae12e477c136329c6ab3e7ae5e58b6085fb546d2a6a9a467",
+      "checked_on": "2026-10-14",
+      "audit_status": "AI-assisted source/condition check; not independently replicated"
+    },
+    {
+      "claim_id": "poisonedrag_headline",
+      "study_id": "poisonedrag",
+      "claim": "Source reports 90% targeted-answer ASR with five malicious texts per target question in a large retrieval database.",
+      "pdf_pages": [
+        1,
+        2
+      ],
+      "numeric_anchors": [
+        "90"
+      ],
+      "interpretation": "Headline result retains insertion budget and targeted-answer endpoint; no energy/physical validation.",
+      "numeric_anchor_status": "matched in listed PDF pages; interpretation separately AI-assisted",
+      "reviewed_version": "2402.07867v3",
+      "source_url": "https://arxiv.org/abs/2402.07867v3",
+      "source_sha256": "f4ff19ff52ac2f861c9cfa4035b0e265a8ba1e08b6752e8ad931df411f8bdfce",
+      "checked_on": "2026-10-14",
+      "audit_status": "AI-assisted source/condition check; not independently replicated"
+    },
+    {
+      "claim_id": "struq_gcg",
+      "study_id": "struq",
+      "claim": "Defended Llama retains 58% GCG attack success in the reported setup.",
+      "pdf_pages": [
+        2,
+        10
+      ],
+      "numeric_anchors": [
+        "58"
+      ],
+      "interpretation": "Model/attack-specific residual vulnerability; not a rate for all StruQ models or attacks.",
+      "numeric_anchor_status": "matched in listed PDF pages; interpretation separately AI-assisted",
+      "reviewed_version": "2402.06363v2",
+      "source_url": "https://arxiv.org/abs/2402.06363v2",
+      "source_sha256": "98c56a8aabb43d1e1fd6eae5111bc09c79c069e52fac8139c578239d9ff74ff7",
+      "checked_on": "2026-10-14",
+      "audit_status": "AI-assisted source/condition check; not independently replicated"
+    },
+    {
+      "claim_id": "mcpguard_detector",
+      "study_id": "mcpguard",
+      "claim": "Benchmark has 70448 samples; the fine-tuned E5 detector reports 96.01% classification accuracy.",
+      "pdf_pages": [
+        1
+      ],
+      "numeric_anchors": [
+        "70448",
+        "96.01"
+      ],
+      "interpretation": "Sample count and detector score; not authorized-task utility or whole-agent prevention.",
+      "numeric_anchor_status": "matched in listed PDF pages; interpretation separately AI-assisted",
+      "reviewed_version": "2508.10991v4",
+      "source_url": "https://arxiv.org/abs/2508.10991v4",
+      "source_sha256": "d0fce6262226cf03d958ef7b95498f93bde7bcd650a0276f9866062c66ae5e49",
+      "checked_on": "2026-10-14",
+      "audit_status": "AI-assisted source/condition check; not independently replicated"
+    },
+    {
+      "claim_id": "twin_matched",
+      "study_id": "twingrid",
+      "claim": "Configured proposal source yields 421 unsafe proposals in 500 attacked-condition trials; matched-model authorization releases zero unsafe actions.",
+      "pdf_pages": [
+        1,
+        4
+      ],
+      "numeric_anchors": [
+        "421",
+        "500"
+      ],
+      "interpretation": "Surrogate proposal rate, not measured LLM injection ASR; shared-model conformance.",
+      "numeric_anchor_status": "matched in listed PDF pages; interpretation separately AI-assisted",
+      "reviewed_version": "2608.15391v1",
+      "source_url": "https://arxiv.org/abs/2608.15391v1",
+      "source_sha256": "c932d2c3e9aa805cec39604ca9f5034c1363562e4987bf34c450fc43f387d0f6",
+      "checked_on": "2026-10-14",
+      "audit_status": "AI-assisted source/condition check; not independently replicated"
+    },
+    {
+      "claim_id": "twin_rating",
+      "study_id": "twingrid",
+      "claim": "Unsafe acceptance reaches 30.09% when actual ratings are 20% below modeled ratings.",
+      "pdf_pages": [
+        1,
+        5
+      ],
+      "numeric_anchors": [
+        "30.09",
+        "20"
+      ],
+      "interpretation": "Mismatch-specific unsafe acceptance; denominator differs from unsafe releases per attack trial.",
+      "numeric_anchor_status": "matched in listed PDF pages; interpretation separately AI-assisted",
+      "reviewed_version": "2608.15391v1",
+      "source_url": "https://arxiv.org/abs/2608.15391v1",
+      "source_sha256": "c932d2c3e9aa805cec39604ca9f5034c1363562e4987bf34c450fc43f387d0f6",
+      "checked_on": "2026-10-14",
+      "audit_status": "AI-assisted source/condition check; not independently replicated"
+    },
+    {
+      "claim_id": "elec_dimensions",
+      "study_id": "elecbench",
+      "claim": "ElecBench defines six major dimensions and 24 sub-metrics, including security.",
+      "pdf_pages": [
+        1,
+        2,
+        3
+      ],
+      "numeric_anchors": [
+        "24"
+      ],
+      "interpretation": "Question/answer framework; security topics are present, with no executed-grid claim.",
+      "numeric_anchor_status": "matched in listed PDF pages; interpretation separately AI-assisted",
+      "reviewed_version": "2407.05365v2",
+      "source_url": "https://arxiv.org/abs/2407.05365v2",
+      "source_sha256": "4f802e60b0f1bd3683aa6a2c0e6c80b3afbf2d657c7d0c63c5d81abe3ab41d78",
+      "checked_on": "2026-10-14",
+      "audit_status": "AI-assisted source/condition check; not independently replicated"
+    },
+    {
+      "claim_id": "energy_variants",
+      "study_id": "energyagent",
+      "claim": "26 of 70 task variants include adversarial numerical tool-return injection.",
+      "pdf_pages": [
+        4,
+        6
+      ],
+      "numeric_anchors": [
+        "26",
+        "70"
+      ],
+      "interpretation": "Fixed replacement of one return; recovery scoring also accepts anomaly language.",
+      "numeric_anchor_status": "matched in listed PDF pages; interpretation separately AI-assisted",
+      "reviewed_version": "2605.15230v2",
+      "source_url": "https://arxiv.org/abs/2605.15230v2",
+      "source_sha256": "5a90ed6c5d27cd1b4eda0cb4ba592d96f6e4b3f1a373176e6efc17b4be5cb14f",
+      "checked_on": "2026-10-14",
+      "audit_status": "AI-assisted source/condition check; not independently replicated"
+    },
+    {
+      "claim_id": "powerbench_questions",
+      "study_id": "powerbench",
+      "claim": "PowerBench constructs 300 retrieval/reasoning questions.",
+      "pdf_pages": [
+        1
+      ],
+      "numeric_anchors": [
+        "300"
+      ],
+      "interpretation": "Synthetic-evidence capability questions, not attack trials or grid trajectories.",
+      "numeric_anchor_status": "matched in listed PDF pages; interpretation separately AI-assisted",
+      "reviewed_version": "2609.34492v1",
+      "source_url": "https://arxiv.org/abs/2609.34492v1",
+      "source_sha256": "80833fa31c4a0a976a38a71be70fff98628b8c48cfbb3f2492d8ec0c3eed58c8",
+      "checked_on": "2026-10-14",
+      "audit_status": "AI-assisted source/condition check; not independently replicated"
+    },
+    {
+      "claim_id": "proopf_cases",
+      "study_id": "proopf",
+      "claim": "ProOPF-B contains 121 expert-annotated test cases.",
+      "pdf_pages": [
+        1
+      ],
+      "numeric_anchors": [
+        "121"
+      ],
+      "interpretation": "Executable optimization-model evaluation, not operational release.",
+      "numeric_anchor_status": "matched in listed PDF pages; interpretation separately AI-assisted",
+      "reviewed_version": "2602.03070v5",
+      "source_url": "https://arxiv.org/abs/2602.03070v5",
+      "source_sha256": "caaf5e3310e1f5cbbe4cd62b389ed4b1673de8a7c4a052dffaab82dac4ffbe54",
+      "checked_on": "2026-10-14",
+      "audit_status": "AI-assisted source/condition check; not independently replicated"
+    },
+    {
+      "claim_id": "injecagent_cases",
+      "study_id": "injecagent",
+      "claim": "InjecAgent contains 1054 cases, 17 user tools and 62 attacker tools.",
+      "pdf_pages": [
+        1
+      ],
+      "numeric_anchors": [
+        "1054",
+        "17",
+        "62"
+      ],
+      "interpretation": "Controlled indirect-injection continuations, not electrical-network evaluation.",
+      "numeric_anchor_status": "matched in listed PDF pages; interpretation separately AI-assisted",
+      "reviewed_version": "2403.02691v3",
+      "source_url": "https://arxiv.org/abs/2403.02691v3",
+      "source_sha256": "49e6e6a4a00c797a772ef905a154c0839426655027d5fa0ce6b632e6c1db2bfb",
+      "checked_on": "2026-10-14",
+      "audit_status": "AI-assisted source/condition check; not independently replicated"
+    },
+    {
+      "claim_id": "agentdojo_size",
+      "study_id": "agentdojo",
+      "claim": "AgentDojo v3 reports 97 tasks and 629 security test cases.",
+      "pdf_pages": [],
+      "numeric_anchors": [
+        "97",
+        "629"
+      ],
+      "interpretation": "Version-pinned HTML abstract/Sections 3.1-3.4; manual source-location check, no local-PDF numeric matching.",
+      "numeric_anchor_status": "version-pinned HTML location checked; no local PDF anchor matching",
+      "reviewed_version": "2406.13352v3",
+      "source_url": "https://arxiv.org/html/2406.13352v3",
+      "source_sha256": "NR; version-pinned HTML source",
+      "checked_on": "2026-10-14",
+      "audit_status": "AI-assisted source/condition check; not independently replicated"
+    },
+    {
+      "claim_id": "critbench_tasks",
+      "study_id": "critbench",
+      "claim": "CritBench contains 81 cybersecurity tasks in IEC 61850 digital-substation and related-protocol environments.",
+      "pdf_pages": [
+        6
+      ],
+      "numeric_anchors": [
+        "81"
+      ],
+      "interpretation": "Task count in an emulated OT capability benchmark, not 81 operational attack incidents or physical-grid trials.",
+      "numeric_anchor_status": "matched in listed PDF page; interpretation separately AI-assisted",
+      "reviewed_version": "2604.06019v1",
+      "source_url": "https://arxiv.org/abs/2604.06019v1",
+      "source_sha256": "5a5ecc8f8f93f2001181f23722a629dd5240b857489158ae3ab927d8f277e5d6",
+      "checked_on": "2026-10-20",
+      "audit_status": "AI-assisted source/condition check; not independently replicated"
+    }
+  ],
+  "release_updated_on": "2026-10-20"
+}
